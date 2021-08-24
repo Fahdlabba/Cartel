@@ -438,6 +438,15 @@ footer img {
   align-items: center;
   justify-content: center;
 }
+#btn3 {
+  border: hidden;
+
+  background-color: #551a97;
+  font-size: 1em;
+  color: #9893d8;
+  font-family: "Rubik Regular";
+  cursor: pointer;
+}
 
 .loading {
   width: 80px;

@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="Home.css">
-  <link rel="shortcut icon" type="img/x-icon" href="logo.jpg">
+  <link rel="shortcut icon" type="img/x-icon" href="/asset/logo.jpg">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
   <title>Cartel</title>
 </head>
@@ -23,33 +23,34 @@
       <li id="l1"><a href="#portfolio">About Us</a></li>
       <li id="l1"><a href="#skills">Games</a></li>
       <li id="l1"><a href="#contact">Reviews</a></li>
+      <button onclick=" return btn()" id="btn3">Dark Mode</button>
     </ul>
   </nav>
   <section id="welcome" class="grid">
     <div class="welcome-text">
       <h2 style="color:#E9F47B">Cartel Familly</h2>
-      <p style="color:lightyellow" class="leading">Welcome to Cartel , 5oudh ra7a mta3k e7seb rou7ik fi darkoum mouch fi server just fama chwaya rules lazem ta9rehom 9abl
+      <p style="color:lightyellow;text-transform: capitalize;" class="leading">Welcome to Cartel , 5oudh ra7a mta3k e7seb rou7ik fi darkoum mouch fi server just fama chwaya rules lazem ta9rehom 9abl
         w kenk insteresse bl gaming n9ollk zeda raw fi koul game tal9a chkoun yal3b ma3k w nes 9dima fi domaine ya3ni pro player </p>
       <a href="#portfolio" class="button">More Info</a>
     </div>
     <div class="welcome-img">
-      <img id="logo" src="logo.jpg" alt="pic of planet">
+      <img id="logo" src="/asset/logo.jpg" alt="pic of planet">
     </div>
   </section>
   <section id="portfolio">
     <h3>Server Owner</h3>
     <div class="projects grid">
       <a id="m1" href="https://www.facebook.com/profile.php?id=100006494344391">
-        <img id="store" src="owner.jpg" alt="space race image">
+        <img id="store" src="/asset/lex.jpg" alt="space race image">
         <h4>Server Creator</h4>
       </a>
       <a id="m1" href="https://www.facebook.com/amine.horsligne">
-        <img id="store" src="psh.jpg" alt="planet boy image">
-        <h4>Owner</h4>
+        <img id="store" src="/asset/psh.jpg" alt="planet boy image">
+        <h4>Owner (Manager)</h4>
       </a>
       <a id="m1" href="https://www.facebook.com/profile.php?id=100027275971238">
-        <img id="store" src="fahd.jpg" alt="captain cosmo image">
-        <h4>Owner(Server Manager)</h4>
+        <img id="store" src="/asset/mejpg.jpg" alt="captain cosmo image">
+        <h4>Owner (Manager)</h4>
       </a>
     </div>
   </section>
@@ -57,21 +58,38 @@
     <h3>Our Server Games</h3>
     <ul id="l2" class="grid">
       <li id="l2">
-        <img id="m4" src="valo.jpg" alt="comet">
+        <img id="m4" src="/asset/valo.jpg" alt="valo">
         <h4>Valorant</h4>
       </li>
       <li id="l2">
-        <img id="m3" src="lol2.jpg" alt="comet">
+        <img id="m3" src="/asset/lol2.jpg" alt="lol">
         <h4>Lol</h4>
       </li>
       <li id="l2">
-        <img id="m3" src="cs.svg" alt="comet">
+        <img id="m3" src="/asset/cs.svg" alt="cs">
         <h4>CS:GO</h4>
       </li>
       <li id="l2">
-        <img id="m2" src="pes.jpg" alt="comet">
+        <img id="m2" src="/asset/pes.jpg" alt="pes">
         <h4>Pes 2021</h4>
       </li>
+      <li id="l2">
+        <img id="m4" src="/asset/pubg.jpg" alt="pubg">
+        <h4>Pubg Steam </h4>
+      </li>
+      <li id="l2">
+        <img id="m3" src="/asset/apex.jfif" alt="apex">
+        <h4>Apex Legends</h4>
+      </li>
+      <li id="l2">
+        <img id="m3" src="/asset/gta.jpg" alt="gta">
+        <h4>GTA V </h4>
+      </li>
+      <li id="l2">
+        <img id="m3" src="/asset/among.jfif" alt="among">
+        <h4>Among us </h4>
+      </li>
+    
     </ul>
     <h3>Some Rules (famma room rules for more info)</h3>
     <ul id="rules">
@@ -95,21 +113,21 @@
       <iframe id="frm" src="https://docs.google.com/forms/d/e/1FAIpQLSfSXeIMPMrqiLs__KbVG2Xft_i-pr1wSwsB2NuOTIcyI8pyAA/viewform?embedded=true" width="640" height="670" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
     </form>
   </section>
-  <footer>
+  <footer id="ft">
     <div class="grid">
-      <p style="font-size: 34 px;" class="copyright">Copyright © 2021 Cartel</p>
+      <p style="font-size: 1em;" class="copyright">Copyright © 2021 Cartel</p>
       <ul class="social">
-        <li id="sc"><a href="#"><img src="icon_fb.svg" alt="facebook"></a></li>
-        <li id="sc"><a href="#"><img src="icon_tw.svg" alt="twitter"></a></li>
-        <li id="sc"><a href="#"><img src="Instagram_icon.png" alt="instagram"></a></li>
+        <li id="sc"><a href="#"><img src="/asset/icon_fb.svg" alt="facebook"></a></li>
+        <li id="sc"><a href="#"><img src="/asset/icon_tw.svg" alt="twitter"></a></li>
+        <li id="sc"><a href="#"><img src="/asset/Instagram_icon.png" alt="instagram"></a></li>
       </ul>
     </div>
   </footer>
-<script type="text/javascript" src="index.js"></script>
 <script>
   $(window).on("load",function(){
       $(".loading-screen").fadeOut(1200);
   });
 </script>
+<script type="text/javascript" src="index.js"></script>
 </body>
 </html>
