@@ -420,8 +420,8 @@ footer img {
   transition: 0.5s linear;
 }
 #l1:hover {
-  transition: 0.5s linear;
-  font-size: 25px;
+  transition: 0.3s linear;
+  font-size: 21px;
 }
 .site-nav h1:hover {
   transition: 0.3s linear;
