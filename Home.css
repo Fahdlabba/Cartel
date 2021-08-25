@@ -98,7 +98,8 @@ h4 {
   width: 300px;
 }
 #logo {
-  height: 290px;
+  height: 100px;
+  position: relative;
 }
 .site-nav h1 {
   grid-column: 1/4;
@@ -359,9 +360,10 @@ footer img {
     font-size: 20px;
   }
   #logo:hover {
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 500px;
     transition: 0.3s linear;
+    margin-left: 15px;
   }
   .site-nav {
     padding: 0;
@@ -502,7 +504,7 @@ footer img {
   animation-delay: 1s;
 }
 #m1:hover {
-  padding: 40px;
+  padding: 15px;
   transition: 0.3s linear;
 }
 #l2:hover {
@@ -525,7 +527,7 @@ footer img {
   font-size: 20px;
 }
 #logo {
-  border-radius: 40px;
+  border-radius: 30px;
   height: 450px;
 }
 #rules p {
