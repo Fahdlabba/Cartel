@@ -99,7 +99,6 @@ h4 {
 }
 #logo {
   height: 100px;
-  position: relative;
 }
 .site-nav h1 {
   grid-column: 1/4;
